@@ -1,0 +1,50 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "H1_main",
+            "request": "launch",
+            "mainClass": "H1_main",
+            "projectName": "short_1baa6f49"
+        },
+        {
+            "type": "java",
+            "name": "H3",
+            "request": "launch",
+            "mainClass": "H3",
+            "projectName": "short_1baa6f49"
+        },
+        {
+            "type": "java",
+            "name": "H2",
+            "request": "launch",
+            "mainClass": "H2",
+            "projectName": "short_1baa6f49"
+        },
+        {
+            "type": "java",
+            "name": "H1",
+            "request": "launch",
+            "mainClass": "H1",
+            "projectName": "short_1baa6f49"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "short_1baa6f49"
+        },
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        }
+    ]
+}

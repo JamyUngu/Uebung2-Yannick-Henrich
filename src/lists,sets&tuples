@@ -1,0 +1,67 @@
+#collection = eine "variable" die genutzt wird um verscheidene Werte zu lagern
+# List = [] (--> dadurch gekennzeichent) geordnet und veränderbar. Duplikate sind OK
+# Set = {} ungeordnet und unveränderlich (immutable), hinzufügen oder abzeiehen ist jedoch OK. KEIN Duplikate
+# Tuple = () geordnet und unveränderbar (unchangeable). Duplikate OK. SCHNELLER
+
+#List
+#fruits = ["apple", "orange", "banana", "coconut"]
+
+# print(fruits[0])   ==     gibt den ersten Wert apple, dann 1 gibt orange usw., wenn es das Element nicht gibt dann error
+#print(fruits[:3])   ==     gibt die ersten drei Werte
+#print(fruits[::2])   ==    ist ein Schritt und gibt jedes zweite Element 
+#print(fruits[::.-1])  ==   rückwerts also gibt von coconut zu apple
+
+#for fruit in fruits:   == druck einzelne Elemente aus der Liste aus
+#    print(fruit)
+
+#print(dir(fruits)) == zeigt am ende alles was man mit der Liste machen kann also sowas wie insert usw. + mit print(help(fruits)) wird das erklärt
+
+#print(len(fruits)) == gibt Anzahl Elemente in Liste wieder
+
+#print("apple" in fruits) == gibt an ob erwähntes Element in Liste ist
+
+#fruits[0] =="pineapple"  #ändert das Element an der angegebene Stelle, hier 0 in fruits
+
+#fruits.append("pineapple") == hängt Element an Liste dran also an letzten Platz
+#fruits.remove("apple") == löscht angegebenes Element in Liste, soweit vorhanden sonst error
+#fruits.insert(0, "pineapple") == Stellt das Element pineapple an erste Stelle der Rest rückt dadurch auf
+#fruits.sort() == sortiert Elemente in Alphabetischer Ordnung
+#fruits.revers() == dreht Reihenfolge der Elemente um
+#fruits.clear() == leert die Liste
+#fruits.index("apple") == gibt den Standpunkt des Elemnts apple in der Liste wieder (wenn man sehen will wo er ist muss man das noch in print() einfügen)
+#fruits.count("banana") == gibt Anzahl der Elemente banana in Liste wieder auch hier ist weider print() nötig wenn man sehen will wie viele
+
+
+#Set
+#fruits = {"apple", "orange", "banana", "coconut"}  
+
+#print(dir(fruits)) == zeigt am ende alles was man mit der Liste machen kann also sowas wie insert usw. + mit print(help(fruits)) wird das erklärt
+
+#print(len(fruits)) == gibt Anzahl Elemente in Liste wieder
+
+#print("apple" in fruits) == gibt an ob erwähntes Element in Liste ist      (geht alles genau wie in Fruits)
+
+#print(fruits[0])  == geht nicht da der Stelle 0 nicht ein bestimmtes Element zugeordnet ist da sie keine Ordnung hat
+
+#fruits.add("pineapple") == fügt Element an random Stell hinzu, solange es nicht schon einmal vorhanden ist dann passier nichts
+#fruits.remove("apple") == löscht angegebenes Element in Liste, soweit vorhanden sonst error
+#fruits.pop() == macht immer das erste Element weg, ist aber durch die fehlende Ordnung immer unteschiedlich
+#fruits.clear() == leert die Liste
+
+
+#Tuple
+#fruits = ("apple", "orange", "banana", "coconut")
+
+#print(dir(fruits)) == zeigt am ende alles was man mit der Liste machen kann also sowas wie insert usw. + mit print(help(fruits)) wird das erklärt
+
+#print(len(fruits)) == gibt Anzahl Elemente in Liste wieder
+
+#print("apple" in fruits) == gibt an ob erwähntes Element in Liste ist
+
+#fruits[0] == geht auch hier nicht da man nichts ändern kann
+
+#fruits.index("apple") == gibt den Standpunkt des Elemnts apple in der Liste wieder (wenn man sehen will wo er ist muss man das noch in print() einfügen)
+#fruits.count("banana") == gibt Anzahl der Elemente banana in Liste wieder auch hier ist weider print() nötig wenn man sehen will wie viele
+
+
+#print(fruits)
